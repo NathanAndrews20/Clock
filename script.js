@@ -8,10 +8,10 @@ function clock(){
     secondHand.style.transform = 'rotate('+secondDegrees+'deg)';
 
     let minuteHand = document.getElementById('minute-hand');
-    let minuteDegrees = date.getMinutes()*6;
+    let minuteDegrees = (date.getMinutes()*6)+(date.getSeconds()*(1/10));
     minuteHand.style.transform = 'rotate('+minuteDegrees+'deg)';
 
     let hourHand = document.getElementById('hour-hand');
-    let hourDegrees = ((date.getHours()%12)*30)+(date.getMinutes()/2);
+    let hourDegrees = ((date.getHours())*30)+(date.getMinutes()/2);
     hourHand.style.transform = 'rotate('+hourDegrees+'deg)';
 }
