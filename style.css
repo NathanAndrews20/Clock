@@ -14,20 +14,20 @@ html, body{
 #second-hand{
     position: absolute;
     width: 10px;
-    height: 500px;
+    height: 75%;
     background-image: linear-gradient(red 50%, transparent 50%);
 }
 
 #minute-hand{
     position: absolute;
     width: 10px;
-    height: 500px;
+    height: 75%;
     background-image: linear-gradient(gray 50%, transparent 50%);
 }
 
 #hour-hand{
     position: absolute;
     width: 10px;
-    height: 300px;
+    height: 45%;
     background-image: linear-gradient(black 50%, transparent 50%);
 }
