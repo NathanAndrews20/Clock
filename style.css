@@ -11,43 +11,60 @@ html, body{
     justify-content: center;
     align-items: center;
     z-index: 0;
+    background-color: cornflowerblue;
 }
 
 .hand{
     position: absolute;
-    width: 10px;
+    width: 0.6%;
     z-index: 2;
 }
 
 #second-hand{
-    height: 75%;
+    height: 70%;
     background-image: linear-gradient(red 60%, transparent 50%);
 }
 
 #minute-hand{
-    height: 75%;
+    height: 70%;
     background-image: linear-gradient(gray 50%, transparent 50%);
 }
 
 #hour-hand{
-    height: 45%;
+    height: 44%;
     background-image: linear-gradient(black 50%, transparent 50%);
 }
 
-/*
-#background{
-    background-color: white;
-    width: 50%;
-    height: 50%;
+#background-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#background-1{
+    position: absolute;
+    width: 90vh;
+    height: 90vh;
     border-radius: 100%;
-    position: relative;
+    background-image: linear-gradient(white,gray);
+    z-index: 0;
+}
+
+#background-2{
+    position: absolute;
+    width: 89vh;
+    height: 89vh;
+    border-radius: 100%;
+    background-color: white;
     z-index: 1;
 }
-*/
 
-#background{
-    width: 80vh;
-    height: 80vh;
+#background-3{
+    width: 75vh;
+    height: 75vh;
     border-radius: 100%;
-    background-color: blue;
+    background-color: rgb(212, 212, 212);
+    z-index: 1;
 }
