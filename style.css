@@ -36,6 +36,7 @@ html, body{
     position: absolute;
     width: 0.6%;
     z-index: 3;
+    border-radius: 20%;
 }
 
 #second-hand{
@@ -49,7 +50,7 @@ html, body{
 }
 
 #hour-hand{
-    height: 44%;
+    height: 45%;
     background-image: linear-gradient(black 50%, transparent 50%);
 }
 
@@ -80,6 +81,7 @@ html, body{
 }
 
 #background-3{
+    position: absolute;
     width: 75vh;
     height: 75vh;
     border-radius: 100%;
