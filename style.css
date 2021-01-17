@@ -16,8 +16,8 @@ html, body{
 
 #center-circle-1{
     position: absolute;
-    width: 5vh;
-    height: 5vh;
+    width: 5vmin;
+    height: 5vmin;
     border-radius: 100%;
     background-color: rgb(240, 240, 240);
     z-index: 4;
@@ -25,8 +25,8 @@ html, body{
 
 #center-circle-2{
     position: absolute;
-    width: 4vh;
-    height: 4vh;
+    width: 4vmin;
+    height: 4vmin;
     border-radius: 100%;
     background-color: gray;
     z-index: 5;
@@ -34,23 +34,23 @@ html, body{
 
 .hand{
     position: absolute;
-    width: 0.6%;
+    width: 1vmin;
     z-index: 3;
     border-radius: 20%;
 }
 
 #second-hand{
-    height: 70%;
+    height: 70vmin;
     background-image: linear-gradient(red 60%, transparent 50%);
 }
 
 #minute-hand{
-    height: 70%;
+    height: 70vmin;
     background-image: linear-gradient(gray 50%, transparent 50%);
 }
 
 #hour-hand{
-    height: 45%;
+    height: 45vmin;
     background-image: linear-gradient(black 50%, transparent 50%);
 }
 
@@ -64,8 +64,8 @@ html, body{
 
 #background-1{
     position: absolute;
-    width: 90vh;
-    height: 90vh;
+    width: 90vmin;
+    height: 90vmin;
     border-radius: 100%;
     background-image: linear-gradient(white,gray);
     z-index: 0;
@@ -73,8 +73,8 @@ html, body{
 
 #background-2{
     position: absolute;
-    width: 89vh;
-    height: 89vh;
+    width: 89vmin;
+    height: 89vmin;
     border-radius: 100%;
     background-color: white;
     z-index: 1;
@@ -82,8 +82,8 @@ html, body{
 
 #background-3{
     position: absolute;
-    width: 75vh;
-    height: 75vh;
+    width: 75vmin;
+    height: 75vmin;
     border-radius: 100%;
     background-color: rgb(240, 240, 240);
     z-index: 2;
