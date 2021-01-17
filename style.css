@@ -1,17 +1,28 @@
 html, body{
     margin: 0px;
     height: 100%;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+
 }
 
-#clock-container{
-    position: relative;
+#digital-clock{
+    width: 100%;
+    text-align: center;
+    font-size: 10vmin;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 0px;
+}
+
+#analog-clock-container{
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 0;
-    background-color: cornflowerblue;
 }
 
 #center-circle-1{
@@ -40,17 +51,17 @@ html, body{
 }
 
 #second-hand{
-    height: 70vmin;
+    height: 65vmin;
     background-image: linear-gradient(red 60%, transparent 50%);
 }
 
 #minute-hand{
-    height: 70vmin;
+    height: 65vmin;
     background-image: linear-gradient(gray 50%, transparent 50%);
 }
 
 #hour-hand{
-    height: 45vmin;
+    height: 40vmin;
     background-image: linear-gradient(black 50%, transparent 50%);
 }
 
@@ -64,8 +75,8 @@ html, body{
 
 #background-1{
     position: absolute;
-    width: 90vmin;
-    height: 90vmin;
+    width: 85vmin;
+    height: 85vmin;
     border-radius: 100%;
     background-image: linear-gradient(white,gray);
     z-index: 0;
@@ -73,8 +84,8 @@ html, body{
 
 #background-2{
     position: absolute;
-    width: 89vmin;
-    height: 89vmin;
+    width: 84vmin;
+    height: 84vmin;
     border-radius: 100%;
     background-color: white;
     z-index: 1;
@@ -82,8 +93,8 @@ html, body{
 
 #background-3{
     position: absolute;
-    width: 75vmin;
-    height: 75vmin;
+    width: 70vmin;
+    height: 70vmin;
     border-radius: 100%;
     background-color: rgb(240, 240, 240);
     z-index: 2;

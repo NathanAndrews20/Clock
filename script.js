@@ -3,6 +3,10 @@ let runClock = setInterval(clock, 500);
 function clock(){
     let date = new Date();
 
+    let digitalClock = document.getElementById('digital-clock');
+    digitalClock.innerText = `${date.getHours()%12}:${date.getMinutes()}:${(date.getSeconds()<10)? '0'+date.getSeconds():date.getSeconds()} ${(date.getHours()<12)? 'AM':'PM'}`
+
+
     let secondHand = document.getElementById('second-hand');
     let secondDegrees = date.getSeconds()*6;
     secondHand.style.transform = 'rotate('+secondDegrees+'deg)';
