@@ -7,6 +7,8 @@ Analog Clock Program
 
 *HTML, CSS, and JavaScript*
 
+You can watch the time pass by @ https://nathanandrews20.github.io/Clock/
+
 What I Learned
 --------------
 

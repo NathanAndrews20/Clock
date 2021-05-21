@@ -1,4 +1,4 @@
-let runClock = setInterval(clock, 500);
+let runClock = setInterval(clock, 100);
 
 function clock(){
     let date = new Date();
